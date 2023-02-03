@@ -1,0 +1,75 @@
+.box{
+    background-color: white;
+    border-color: black;
+    border-radius: 10em;
+    display:flex;
+    flex-direction: column ;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom:20px;
+    margin-top: 75px;
+}
+input, button, select{
+    border-radius: 10em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.board {
+    display: grid;
+    grid-gap: 1px;
+    width:960px;
+    height:960px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    background-color: rgb(238, 238, 240);
+    border: 5px solid black;
+    margin:auto;
+    border-radius: 2em;
+    margin-bottom:100px;
+    margin-top:100px;
+
+  }
+  label{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  h1{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+body{
+  background-color: white;
+  animation: bg infinite 20s;
+  
+}
+
+@keyframes bg{
+  0%{
+    background:red;
+  }
+  20%{
+    background:orange;
+  }
+  40%{
+    background:yellow;
+  }
+  60%{
+    background:green;
+  }
+  80%{
+    background:blue;
+  }
+  100%{
+    background:purple;
+  }
+
+}
+  
+  
